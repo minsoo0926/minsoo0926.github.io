@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://minsooha.com/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/whoami/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/projects/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/contact/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/clear/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/rm-rf/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/projects/sword-macro/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/projects/PPO-scratch/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/projects/KnowGem/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/projects/portfolio-risk-oprimization-by-DRL/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://minsooha.com/projects/unfinished-ideas/</loc>
+  <lastmod>2026-02-18T16:12:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
