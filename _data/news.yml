@@ -1,0 +1,36 @@
+# Each entry: date (display string) + body (HTML allowed).
+# Newer entries on top.
+
+- date: Apr 2026
+  body: >-
+    Joined the Interactive Machine Learning Lab @ POSTECH as an
+    undergraduate research assistant (advisor: Prof. Kwang-Sung Jun).
+
+- date: Sep 2025
+  body: >-
+    Co-founded <a href="https://knowgem.net">KnowGem</a> and started research
+    at the ML Lab @ POSTECH on LLM reasoning &amp; RL
+    (advisor: Prof. Sangdon Park).
+
+- date: Jan 2025
+  body: >-
+    Joined <strong>LinqAlpha</strong> as a Fundamental Research Engineer,
+    working on RAG for finance, Text-to-SQL, and STT workflows.
+
+- date: Dec 2024
+  body: >-
+    Represented POSTECH in <em>Elite League S2</em>
+    (Coupang Play, a.k.a. <em>University War</em>) — selected as one of four
+    student representatives.
+
+- date: Aug 2024
+  body: >-
+    Joined <strong>FBA Quant</strong>, applying ML methods to quantitative finance.
+
+- date: Oct 2023
+  body: >-
+    Completed military service (ROK Army, reserve training instructor).
+
+- date: Feb 2020
+  body: >-
+    Began B.S. in Mathematics @ POSTECH.

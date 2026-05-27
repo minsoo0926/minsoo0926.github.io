@@ -1,0 +1,25 @@
+<table class="research">
+{%- for p in site.data.projects %}
+    <tr>
+        <td class="thumb">
+        {%- if p.thumb_image %}
+            <img src="/assets/images/{{ p.thumb_image }}" alt="{{ p.thumb_label }}">
+        {%- else %}
+            <div class="placeholder">{{ p.thumb_label }}</div>
+        {%- endif %}
+        </td>
+        <td>
+            <div class="title"><a href="{{ p.url }}">{{ p.title }}</a></div>
+            <div class="desc">{{ p.description }}</div>
+            {%- if p.tags and p.tags.size > 0 %}
+            <div class="tags">
+                {%- for t in p.tags -%}
+                    {%- if t.url %}<a href="{{ t.url }}">{{ t.label }}</a>{% else %}{{ t.label }}{% endif -%}
+                    {%- unless forloop.last %} · {% endunless -%}
+                {%- endfor %}
+            </div>
+            {%- endif %}
+        </td>
+    </tr>
+{%- endfor %}
+</table>

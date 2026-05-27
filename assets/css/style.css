@@ -1,0 +1,138 @@
+/* Academic personal page — inspired by Jon Barron */
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #222;
+    background: #ffffff;
+    line-height: 1.55;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 24px 24px 24px;
+}
+
+a {
+    color: #1772d0;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover { color: #f09228; text-decoration: underline; }
+
+h1, h2, h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #111; }
+h1 { font-size: 28px; margin: 0 0 4px 0; font-weight: 500; }
+h2 { font-size: 20px; margin: 36px 0 12px 0; font-weight: 500; border-bottom: 1px solid #e6e6e6; padding-bottom: 4px; }
+h3 { font-size: 17px; margin: 18px 0 6px 0; font-weight: 600; }
+
+p { margin: 8px 0; }
+
+hr {
+    border: 0;
+    border-top: 1px solid #e6e6e6;
+    margin: 28px 0;
+}
+
+/* Header block: photo + bio */
+.profile {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 28px;
+    align-items: start;
+    margin-bottom: 8px;
+}
+.profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #f4f4f4;
+}
+.profile .meta { font-size: 15px; }
+.profile .meta .name { font-size: 28px; font-weight: 500; margin-bottom: 6px; }
+.profile .meta .affil { color: #555; margin-bottom: 12px; }
+.profile .meta .links a { margin-right: 10px; }
+
+/* News block — scrollable list, table-like */
+.news {
+    max-height: 220px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+.news table { border-collapse: collapse; width: 100%; }
+.news td { padding: 4px 6px; vertical-align: top; }
+.news td.date { white-space: nowrap; color: #555; width: 90px; font-family: "Helvetica Neue", sans-serif; }
+
+/* Research/projects table */
+.research { width: 100%; border-collapse: collapse; }
+.research td { padding: 16px 8px; vertical-align: top; border-bottom: 1px solid #f0f0f0; }
+.research td.thumb { width: 180px; }
+.research td.thumb img {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 3px;
+    background: #f4f4f4;
+    border: 1px solid #eee;
+}
+.research td.thumb .placeholder {
+    width: 160px;
+    height: 100px;
+    background: #f4f4f4;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 13px;
+}
+.research .title { font-weight: 600; color: #111; font-size: 16px; }
+.research .desc { font-size: 14.5px; color: #333; margin-top: 4px; }
+.research .tags { font-size: 13px; color: #777; margin-top: 6px; font-family: "Helvetica Neue", sans-serif; }
+.research .tags a { color: #1772d0; }
+
+/* Posts list */
+.posts { list-style: none; padding: 0; }
+.posts li { padding: 8px 0; border-bottom: 1px solid #f0f0f0; }
+.posts .date { color: #777; font-size: 13px; font-family: "Helvetica Neue", sans-serif; margin-right: 10px; }
+
+footer {
+    max-width: 800px;
+    margin: 40px auto 24px auto;
+    padding: 12px 24px 0 24px;
+    border-top: 1px solid #eee;
+    color: #888;
+    text-align: right;
+    font-family: "Helvetica Neue", sans-serif;
+}
+footer small { font-size: 12px; }
+
+/* Post page */
+article.post { font-size: 16px; }
+article.post h1 { margin-top: 0; font-size: 26px; }
+article.post .meta { color: #777; font-size: 13px; margin-bottom: 24px; font-family: "Helvetica Neue", sans-serif; }
+article.post p { margin: 14px 0; }
+article.post em, article.post i { color: #444; }
+
+/* Project page */
+article.project .title { font-size: 24px; font-weight: 500; margin-bottom: 4px; }
+article.project .links { font-family: "Helvetica Neue", sans-serif; font-size: 14px; margin-bottom: 16px; }
+article.project .links a { margin-right: 10px; }
+article.project h2 { font-size: 17px; }
+
+/* Responsive */
+@media (max-width: 600px) {
+    .profile { grid-template-columns: 1fr; }
+    .profile img { width: 160px; height: 160px; }
+    .research td.thumb { width: 110px; }
+    .research td.thumb img, .research td.thumb .placeholder { width: 100px; height: 70px; font-size: 11px; }
+}
