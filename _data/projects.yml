@@ -10,6 +10,7 @@
 
 - thumb_label: KnowGem
   title: KnowGem — Knowledge Graphs for Verifiable Reasoning
+  thumb_image: knowgem.png
   url: /projects/KnowGem/
   description: >-
     A focused workspace that turns scattered documents into a navigable graph
@@ -34,6 +35,7 @@
 
 - thumb_label: PPO
   title: Proximal Policy Optimization from Scratch
+  thumb_image: ppo_scratch.gif
   url: /projects/PPO-scratch/
   description: >-
     A clean, from-scratch PyTorch implementation of PPO compatible with the
@@ -45,6 +47,7 @@
 
 - thumb_label: DRL Portfolio
   title: Portfolio Risk Optimization via Deep RL
+  thumb_image: risk_optimization.png
   url: /projects/portfolio-risk-oprimization-by-DRL/
   description: >-
     A portfolio-optimization system that learns allocation policies with PPO
@@ -54,12 +57,12 @@
     - label: code
       url: https://github.com/minsoo0926/portfolio-risk-optimization-by-DRL
     - label: "PyTorch, Stable-Baselines3, FastAPI"
-
-- thumb_label: ideas
-  title: Work in Progress
-  url: /projects/unfinished-ideas/
-  description: >-
-    Ongoing explorations — including <em>AlphaExit</em>, a self-play RL agent
-    for the board game <em>Exit Strategy 2</em>, and <em>Idle-AI</em>, an idle
-    game themed around the history of AI and computer science.
-  tags: []
+#
+# - thumb_label: ideas
+#   title: Work in Progress
+#   url: /projects/unfinished-ideas/
+#   description: >-
+#     Ongoing explorations — including <em>AlphaExit</em>, a self-play RL agent
+#     for the board game <em>Exit Strategy 2</em>, and <em>Idle-AI</em>, an idle
+#     game themed around the history of AI and computer science.
+#   tags: []

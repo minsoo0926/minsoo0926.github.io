@@ -10,7 +10,7 @@ layout: default
         <div class="affil">
             B.S. in Mathematics<br>
             Pohang University of Science and Technology (POSTECH)<br>
-            <span style="font-family:'Helvetica Neue',sans-serif; font-size:13px;">haminsoo0926 [at] gmail [dot] com</span>
+            <span style="font-family:'EB Garamond','Georgia','Times New Roman','Noto Serif KR',serif; font-size:13px;">haminsoo0926 [at] gmail [dot] com</span>
         </div>
         <div class="links">
             <a href="/cv.pdf">CV</a> /
@@ -32,8 +32,8 @@ AI**, and the algorithmic foundations of large language models. I am
 especially drawn to problems where mathematical structure can be used to make
 learning systems more reliable, interpretable, and provably correct.
 
-Alongside my research, I am building a service [KnowGem](https://knowgem.net), a
-knowledge-graph workspace for hallucination-free reasoning over documents.
+Alongside my research, I am deeply interested in software engineering and passionate about building products that deliver real-world impact. 
+In line with this commitment, I am currently building a service [KnowGem](https://knowgem.net), a knowledge-graph workspace for hallucination-free reasoning over documents.
 
 ## News
 
@@ -57,7 +57,7 @@ knowledge-graph workspace for hallucination-free reasoning over documents.
 ## Education
 
 - **POSTECH**, B.S. in Mathematics (Feb 2020 – present)
-  <span style="font-family:'Helvetica Neue',sans-serif; font-size:13px; color:#555;">
+  <span style="font-family:'EB Garamond','Georgia','Times New Roman','Noto Serif KR',serif; font-size:13px; color:#555;">
   GPA 3.75 / 4.30 &nbsp;·&nbsp; Major GPA 3.87 / 4.30 &nbsp;·&nbsp;
   Coursework: Analysis, Probability Theory, Machine Learning
   </span>
