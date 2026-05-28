@@ -23,11 +23,9 @@ layout: default
 
 I am an undergraduate student at [POSTECH](https://postech.ac.kr), majoring in
 Mathematics. I am currently a research assistant at the **Interactive Machine
-Learning Lab** advised by Prof. Kwang-Sung Jun, and previously worked at the
-**Machine Learning Lab** under Prof. Sangdon Park on LLM reasoning and
-reinforcement learning.
+Learning Lab** advised by Prof. Kwang-Sung Jun.
 
-My research interests lie in **machine learning theory**, **neuro-symbolic
+My research interests lie in **Machine learning theory**, **Neuro-symbolic
 AI**, and the algorithmic foundations of large language models. I am
 especially drawn to problems where mathematical structure can be used to make
 learning systems more reliable, interpretable, and provably correct.
