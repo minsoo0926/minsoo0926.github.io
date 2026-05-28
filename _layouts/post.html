@@ -9,5 +9,11 @@ layout: default
         {{ page.date }}{% if page.author %} · {{ page.author }}{% else %} · Minsoo Ha{% endif %}
     </p>
 
+    {%- if page.thumb_image %}
+    <div class="hero">
+        <img src="/assets/images/{{ page.thumb_image }}" alt="{{ page.title }}">
+    </div>
+    {%- endif %}
+
     {{ content }}
 </article>

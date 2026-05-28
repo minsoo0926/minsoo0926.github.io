@@ -130,6 +130,18 @@ article.project .links { font-family: "EB Garamond", "Georgia", "Times New Roman
 article.project .links a { margin-right: 10px; }
 article.project h2 { font-size: 17px; }
 
+/* Hero thumbnail on project/post pages */
+.hero { margin: 18px 0 24px 0; }
+.hero img {
+    display: block;
+    max-width: 100%;
+    max-height: 360px;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background: #f4f4f4;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     .profile { grid-template-columns: 1fr; }

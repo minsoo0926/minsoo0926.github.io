@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+{%- assign thumb = page.thumb_image -%}
+{%- if thumb == nil or thumb == "" -%}
+    {%- for p in site.data.projects -%}
+        {%- if p.url == page.url and p.thumb_image -%}
+            {%- assign thumb = p.thumb_image -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}
 <article class="project">
     <p><a href="/">← back</a></p>
 
@@ -11,6 +19,12 @@ layout: default
         {%- for l in page.links -%}
             <a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}
         {%- endfor %}
+    </div>
+    {%- endif %}
+
+    {%- if thumb %}
+    <div class="hero">
+        <img src="/assets/images/{{ thumb }}" alt="{{ page.title }}">
     </div>
     {%- endif %}
 
