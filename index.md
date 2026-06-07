@@ -54,7 +54,14 @@ In line with this commitment, I am currently building a service [KnowGem](https:
 
 ## Education
 
-- **POSTECH**, B.S. in Mathematics (Feb 2020 – present)
+- **POSTECH**, M.S. in Artificial Intelligence (candidate, Sep 2026 - )
+
+  <span style="font-family:'EB Garamond','Georgia','Times New Roman','Noto Serif KR',serif; font-size:13px; color:#555;">
+  Interactive Machine Learning Lab, advised by Prof. Kwang-Sung Jun&nbsp;·&nbsp;
+  Research focus: Machine Learning Theory
+  </span>
+- **POSTECH**, B.S. in Mathematics (Feb 2020 – Aug 2026)
+
   <span style="font-family:'EB Garamond','Georgia','Times New Roman','Noto Serif KR',serif; font-size:13px; color:#555;">
   GPA 3.75 / 4.30 &nbsp;·&nbsp; Major GPA 3.87 / 4.30 &nbsp;·&nbsp;
   Coursework: Analysis, Probability Theory, Machine Learning
