@@ -49,8 +49,8 @@ In line with this commitment, I am currently building a service [KnowGem](https:
 
 ## Service
 
-- President, POSTECH Sports Climbing Club
-- Reserve training instructor, Republic of Korea Army (Feb 2022 – Oct 2023)
+- President, POSTECH Sports Climbing Club (Feb 2026 - Aug 2026)
+- Reserve training instructor, Republic of Korea Army (Apr 2022 – Oct 2023)
 
 ## Education
 
