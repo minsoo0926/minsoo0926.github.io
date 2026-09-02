@@ -3,12 +3,11 @@ layout: default
 ---
 
 <section class="profile" markdown="0">
-    <img src="/assets/images/profile.jpg" alt="Minsoo Ha"
-         onerror="this.onerror=null;this.src='/assets/images/pepe.png';">
+    <img src="/assets/images/profile.jpg" alt="Minsoo Ha">
     <div class="meta">
         <div class="name">Minsoo Ha (하민수)</div>
         <div class="affil">
-            B.S. in Mathematics<br>
+            M.S. student in Artificial Intelligence<br>
             Pohang University of Science and Technology (POSTECH)<br>
             <span style="font-family:'EB Garamond','Georgia','Times New Roman','Noto Serif KR',serif; font-size:13px;">haminsoo0926 [at] gmail [dot] com</span>
         </div>
@@ -21,17 +20,15 @@ layout: default
     </div>
 </section>
 
-I am an undergraduate student at [POSTECH](https://postech.ac.kr), majoring in
-Mathematics. I am currently a research assistant at the **Interactive Machine
-Learning Lab** advised by Prof. Kwang-Sung Jun.
+I am an MS student at [POSTECH](https://postech.ac.kr) GSAI (Graduate School of AI).
+I am currently doing research at the **Interactive Machine Learning Lab** advised by Prof. Kwang-Sung Jun.
 
-My research interests lie in **Machine learning theory**, **Neuro-symbolic
-AI**, and the algorithmic foundations of large language models. I am
-especially drawn to problems where mathematical structure can be used to make
-learning systems more reliable, interpretable, and provably correct.
+My research interests lie in **Statistical learning theory**, **Interactive machine learning**, and the algorithmic foundations of machine learning algorithms. 
+I am especially drawn to problems where mathematical structure can be used to make
+learning systems more reliable and provably correct.
 
 Alongside my research, I am deeply interested in software engineering and passionate about building products that deliver real-world impact. 
-In line with this commitment, I am currently building a service [KnowGem](https://knowgem.net), a knowledge-graph workspace for hallucination-free reasoning over documents.
+In line with this commitment, I am was building a service [KnowGem](https://knowgem.net), a knowledge-graph workspace for hallucination-free reasoning over documents.
 
 ## News
 
@@ -54,7 +51,7 @@ In line with this commitment, I am currently building a service [KnowGem](https:
 
 ## Education
 
-- **POSTECH**, M.S. in Artificial Intelligence (candidate, Sep 2026 - )
+- **POSTECH**, M.S. in Artificial Intelligence (Sep 2026 - )
 
   <span style="font-family:'EB Garamond','Georgia','Times New Roman','Noto Serif KR',serif; font-size:13px; color:#555;">
   Interactive Machine Learning Lab, advised by Prof. Kwang-Sung Jun&nbsp;·&nbsp;
@@ -63,6 +60,6 @@ In line with this commitment, I am currently building a service [KnowGem](https:
 - **POSTECH**, B.S. in Mathematics (Feb 2020 – Aug 2026)
 
   <span style="font-family:'EB Garamond','Georgia','Times New Roman','Noto Serif KR',serif; font-size:13px; color:#555;">
-  GPA 3.75 / 4.30 &nbsp;·&nbsp; Major GPA 3.87 / 4.30 &nbsp;·&nbsp;
+  GPA 3.75 / 4.30 &nbsp;·&nbsp; Major GPA 3.90 / 4.30 &nbsp;·&nbsp;
   Coursework: Analysis, Probability Theory, Machine Learning
   </span>
