@@ -24,8 +24,7 @@ I am an MS student at [POSTECH](https://postech.ac.kr) GSAI (Graduate School of 
 I am currently doing research at the **Interactive Machine Learning Lab** advised by Prof. Kwang-Sung Jun.
 
 My research interests lie in **Statistical learning theory**, **Interactive machine learning**, and the algorithmic foundations of machine learning algorithms. 
-I am especially drawn to problems where mathematical structure can be used to make
-learning systems more reliable and provably correct.
+I am especially drawn to problems where mathematical structure can be used to make learning systems more reliable and provably correct.
 
 Alongside my research, I am deeply interested in software engineering and passionate about building products that deliver real-world impact. 
 In line with this commitment, I am was building a service [KnowGem](https://knowgem.net), a knowledge-graph workspace for hallucination-free reasoning over documents.
