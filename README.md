@@ -3,7 +3,8 @@
 ## Publications
 
 Add BibTeX entries to `_bibliography/publications.bib`. All entries automatically
-appear in the homepage's Publication section when Jekyll builds, newest year first.
+appear in the homepage's Publication section when Jekyll builds, grouped under
+year headings with the newest year first.
 There is no separate list to update.
 
 For example (replace these sample values with a real publication):

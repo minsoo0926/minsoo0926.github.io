@@ -7,7 +7,11 @@ scholar:
   bibliography: publications.bib
   sort_by: year
   order: descending
+  group_by: year
+  group_order: descending
+  bibliography_group_tag: h3
   bibliography_template: publication
+  reference_tagname: div
 
 exclude:
   - README.md

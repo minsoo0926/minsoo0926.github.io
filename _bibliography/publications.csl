@@ -19,10 +19,10 @@
     </layout>
   </citation>
   <bibliography>
-    <layout suffix=".">
-      <group delimiter=". ">
-        <text macro="authors"/>
-        <text variable="title"/>
+    <layout>
+      <text variable="title" display="block" font-weight="bold"/>
+      <text macro="authors" display="block"/>
+      <group display="block" delimiter=". ">
         <group delimiter=", ">
           <text variable="container-title" font-style="italic"/>
           <text variable="volume"/>
