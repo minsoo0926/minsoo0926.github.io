@@ -5,9 +5,9 @@ layout: default
 <section class="profile" markdown="0">
     <img src="/assets/images/profile.jpg" alt="Minsoo Ha">
     <div class="meta">
-        <div class="name">Minsoo Ha (하민수)</div>
+        <div class="name">Minsoo Ha</div>
         <div class="affil">
-            M.S. student in Artificial Intelligence<br>
+            M.S. student in Graduate School of Artificial Intelligence (GSAI)<br>
             Pohang University of Science and Technology (POSTECH)<br>
             <span style="font-family:'EB Garamond','Georgia','Times New Roman','Noto Serif KR',serif; font-size:13px;">haminsoo0926 [at] gmail [dot] com</span>
         </div>
