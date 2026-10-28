@@ -101,6 +101,10 @@ hr {
 .research .tags { font-size: 13px; color: #777; margin-top: 6px; font-family: "EB Garamond", "Georgia", "Times New Roman", "Noto Serif KR", serif; }
 .research .tags a { color: #1772d0; }
 
+/* Publications */
+.bibliography { padding-left: 24px; }
+.bibliography li { margin-bottom: 16px; }
+
 /* Posts list */
 .posts { list-style: none; padding: 0; }
 .posts li { padding: 8px 0; border-bottom: 1px solid #f0f0f0; }

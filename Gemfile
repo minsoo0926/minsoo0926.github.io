@@ -7,6 +7,7 @@ gem "kramdown"
 gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
+  gem "jekyll-scholar", "~> 7.1"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
 end

@@ -1,0 +1,12 @@
+---
+---
+{%- capture highlighted_name -%}<strong>{{ site.scholar.author_name }}</strong>{%- endcapture -%}
+{{ reference | replace: site.scholar.author_name, highlighted_name }}
+{% if entry.url %}
+<a href="{{ entry.url | escape }}">Link</a>
+{% elsif entry.doi %}
+<a href="https://doi.org/{{ entry.doi | escape }}">Link</a>
+{% endif %}
+{% if entry.pdf %}
+<a href="{{ entry.pdf | relative_url | escape }}">PDF</a>
+{% endif %}

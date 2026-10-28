@@ -1,1 +1,13 @@
 markdown: kramdown
+
+scholar:
+  style: _bibliography/publications.csl
+  author_name: Minsoo Ha
+  source: ./_bibliography
+  bibliography: publications.bib
+  sort_by: year
+  order: descending
+  bibliography_template: publication
+
+exclude:
+  - README.md

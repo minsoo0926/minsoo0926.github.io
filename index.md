@@ -43,6 +43,12 @@ In line with this commitment, I am was building a service [KnowGem](https://know
 - <span class="date">Apr 14, 2026</span> [Humor and Taste](/posts/humor_and_taste)
 -->
 
+## Publication
+
+<div class="publications" markdown="0">
+{% bibliography %}
+</div>
+
 ## Service
 
 - President, POSTECH Sports Climbing Club (Feb 2026 - Aug 2026)
